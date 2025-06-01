@@ -24,16 +24,16 @@ void movimentobispo(int numerobispo) {
     }
 }
 
-    int main() {
-       int casa_torre;
-       casa_torre = 5;
-       movimentotorre(casa_torre);
-       int casa_rainha;
-       casa_rainha = 8;
-       movimentorainha(casa_rainha);
-       int casa_bispo;
-       casa_bispo = 5;
-       movimentobispo(casa_bispo);
+int main() {
+    int casa_torre;
+    casa_torre = 5;
+    movimentotorre(casa_torre);
+    int casa_rainha;
+    casa_rainha = 8;
+    movimentorainha(casa_rainha);
+    int casa_bispo;
+    casa_bispo = 5;
+    movimentobispo(casa_bispo);
        
 for (int i = 0, j = 0; i < 2 && j < 1 ; i+=2, j++) { 
     if (i >= 2 || j >= 1) break;
